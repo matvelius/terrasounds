@@ -436,7 +436,7 @@ Based on analysis of the original site's responsive behavior:
   })
   ```
 
-- [ ] **1.6 Commit project setup**
+- [x] **1.6 Commit project setup** ✓
   ```bash
   git add .
   git commit -m "Initialize Vue 3 + Vuetify 3 project with Vite"
