@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useDisplay } from 'vuetify'
+import logoImage from '@/assets/Terra_Sounds_School_of_Music_and_Arts_horizontal_on_transparent_for_bright.png'
 
 const display = useDisplay()
 const drawer = ref(false)
@@ -32,13 +33,13 @@ const whatWeDoItems = [
       aria-label="Toggle navigation menu"
     />
 
-    <!-- Logo/Title -->
+    <!-- Logo -->
     <router-link to="/" class="d-flex align-center text-decoration-none">
-      <v-icon icon="mdi-music-note" color="primary" size="32" class="mr-2" />
-      <v-app-bar-title class="text-primary font-weight-bold">
-        <span class="d-none d-sm-inline">TERRA SOUNDS</span>
-        <span class="d-sm-none">TERRA</span>
-      </v-app-bar-title>
+      <img
+        :src="logoImage"
+        alt="Terra Sounds School of Music & Arts"
+        class="logo-img"
+      />
     </router-link>
 
     <v-spacer />
@@ -147,7 +148,14 @@ const whatWeDoItems = [
 </template>
 
 <style scoped>
-.v-app-bar-title {
-  flex: none;
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    height: 32px;
+  }
 }
 </style>

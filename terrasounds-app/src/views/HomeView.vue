@@ -17,15 +17,15 @@ const enrollmentSteps = [
 const youtubeVideos = [
   {
     title: 'How to Sign Up for Lessons?',
-    id: 'dQw4w9WgXcQ' // Placeholder - replace with actual video ID
+    id: '6oRTPv3ayBE'
   },
   {
     title: 'Why choose Terra Sounds?',
-    id: 'dQw4w9WgXcQ' // Placeholder - replace with actual video ID
+    id: 'ijE7PRpSJq4'
   },
   {
     title: 'Terra Sounds Virtual Video Lessons',
-    id: 'dQw4w9WgXcQ' // Placeholder - replace with actual video ID
+    id: 'l5IL3B6Ph8U'
   }
 ]
 </script>

@@ -131,24 +131,45 @@ const requirements = [
       </v-container>
     </v-sheet>
 
-    <!-- Technical Requirements -->
+    <!-- Video Section -->
     <v-container class="py-12">
       <v-row justify="center">
-        <v-col cols="12" md="8">
-          <h2 class="text-h4 text-center mb-8 font-rock-salt text-primary">What You'll Need</h2>
-          <v-card elevation="2">
-            <v-list>
-              <v-list-item
-                v-for="req in requirements"
-                :key="req.text"
-                :prepend-icon="req.icon"
-                :title="req.text"
-              />
-            </v-list>
+        <v-col cols="12" md="8" lg="6">
+          <v-card elevation="4">
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/l5IL3B6Ph8U"
+                title="Terra Sounds Virtual Video Lessons"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </v-card>
         </v-col>
       </v-row>
     </v-container>
+
+    <!-- Technical Requirements -->
+    <v-sheet color="grey-lighten-4" class="py-12">
+      <v-container>
+        <v-row justify="center">
+          <v-col cols="12" md="8">
+            <h2 class="text-h4 text-center mb-8 font-rock-salt text-primary">What You'll Need</h2>
+            <v-card elevation="2">
+              <v-list>
+                <v-list-item
+                  v-for="req in requirements"
+                  :key="req.text"
+                  :prepend-icon="req.icon"
+                  :title="req.text"
+                />
+              </v-list>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
 
     <!-- CTA Section -->
     <v-sheet color="primary" class="py-12">
@@ -174,6 +195,21 @@ const requirements = [
 }
 
 .h-100 {
+  height: 100%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
 }
 </style>

@@ -40,7 +40,8 @@
             <v-card elevation="4">
               <div class="video-container">
                 <iframe
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  src="https://www.youtube.com/embed/ijE7PRpSJq4"
+                  title="Why choose Terra Sounds?"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
