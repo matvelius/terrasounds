@@ -25,7 +25,7 @@ const whatWeDoItems = [
 
 <template>
   <!-- Desktop/Tablet Navigation -->
-  <v-app-bar color="white" elevation="2" class="px-2">
+  <v-app-bar color="white" elevation="2" class="px-2" height="72">
     <!-- Mobile hamburger menu button -->
     <v-app-bar-nav-icon
       v-if="display.smAndDown.value"
@@ -149,13 +149,13 @@ const whatWeDoItems = [
 
 <style scoped>
 .logo-img {
-  height: 40px;
+  height: 60px;
   width: auto;
 }
 
 @media (max-width: 600px) {
   .logo-img {
-    height: 32px;
+    height: 48px;
   }
 }
 </style>
