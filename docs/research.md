@@ -499,7 +499,7 @@ Based on analysis of the original site's responsive behavior:
 
 ### Phase 4: Build Pages
 
-- [ ] **4.1 Homepage (`HomeView.vue`)**
+- [x] **4.1 Homepage (`HomeView.vue`)** ✓
   - Hero section with image/illustration
   - Welcome banner with intro text
   - 3-column CTA buttons (Start Here, Refer a Friend, Buy Gift Card)
@@ -507,35 +507,35 @@ Based on analysis of the original site's responsive behavior:
   - Embedded YouTube videos (optional)
   - Mailing list CTA
 
-- [ ] **4.2 About Page (`AboutView.vue`)**
+- [x] **4.2 About Page (`AboutView.vue`)** ✓
   - Hero banner with page title
   - YouTube video embed
   - School history and philosophy text
   - Media kit download link
   - Contact CTA
 
-- [ ] **4.3 Class Pages (Music, Art, Languages)**
+- [x] **4.3 Class Pages (Music, Art, Languages)** ✓
   - Consistent layout with hero banner
   - List of offerings
   - Cross-links to other class types
   - CTAs to Fees and Contact
 
-- [ ] **4.4 eLearning Page**
+- [x] **4.4 eLearning Page** ✓
   - Benefits section
   - Technical requirements
   - Virtual classroom info (simplified)
 
-- [ ] **4.5 Fees & Terms Page**
+- [x] **4.5 Fees & Terms Page** ✓
   - Pricing tables using `v-table`
   - Terms & conditions list
   - Free trial callout
 
-- [ ] **4.6 Contact Page**
+- [x] **4.6 Contact Page** ✓
   - Contact form (Netlify Forms compatible)
   - Contact information
   - Social links
 
-- [ ] **4.7 Referral Program Page**
+- [x] **4.7 Referral Program Page** ✓
   - Program explanation
   - Referral form
 
