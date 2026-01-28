@@ -1,15 +1,9 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script setup>
+</script>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<template>
+  <v-container>
+    <h1 class="text-h3 mb-4">About Us</h1>
+    <p>Terra Sounds was established in 2011 in Glenview, IL.</p>
+  </v-container>
+</template>
