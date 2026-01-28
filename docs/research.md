@@ -541,7 +541,7 @@ Based on analysis of the original site's responsive behavior:
 
 ### Phase 5: Forms & Netlify Integration
 
-- [ ] **5.1 Create Netlify-compatible contact form**
+- [x] **5.1 Create Netlify-compatible contact form** ✓ (done in Phase 4)
   ```html
   <form name="contact" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="contact" />
@@ -549,12 +549,12 @@ Based on analysis of the original site's responsive behavior:
   </form>
   ```
 
-- [ ] **5.2 Create `public/_redirects` for SPA routing**
+- [x] **5.2 Create `public/_redirects` for SPA routing** ✓
   ```
   /*    /index.html   200
   ```
 
-- [ ] **5.3 Add form submission handling with fetch API**
+- [x] **5.3 Add form submission handling with fetch API** ✓ (done in Phase 4)
 
 ### Phase 6: Responsive Design & Testing
 
